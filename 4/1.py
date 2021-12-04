@@ -38,7 +38,6 @@ def check_winner(marked, boards_num, square_size):
 
 if __name__ == '__main__':
     with open('./input.txt', 'r') as f:
-        # question 1
         marked_num = []
         boards = []
         board = []

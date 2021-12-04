@@ -10,7 +10,6 @@ def one_around(num, boards, marked, winners, boards_num, square_size):
     check_winner(marked, winners, boards_num, square_size)
 
 
-# -1 if there is no winner
 def check_winner(marked, winners, boards_num, square_size):
     for i in range(boards_num):
         if i in winners:
@@ -46,7 +45,6 @@ def check_winner(marked, winners, boards_num, square_size):
 
 if __name__ == '__main__':
     with open('./input.txt', 'r') as f:
-        # question 1
         marked_num = []
         boards = []
         board = []
